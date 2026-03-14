@@ -1,0 +1,91 @@
+.active-mentorships {
+    margin-top: 24px;
+}
+
+.active-header {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.count-inline {
+    margin-left: 15px;
+    background: #020617;
+    border: 1px solid #1e293b;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 13px;
+    color: #38bdf8;
+    font-weight: 500;
+}
+
+.active-header h2 {
+    font-size: 20px;
+    color: #e5e7eb;
+}
+
+.slider-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 16px;
+}
+
+.arrow {
+    background: #020617;
+    border: 1px solid #1e293b;
+    color: #e5e7eb;
+    padding: 8px 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.arrow:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.cards-animated {
+    display: flex;
+    gap: 16px;
+    animation: slideNext 0.45s ease forwards;
+}
+
+.cards-animated.prev {
+    animation: slidePrev 0.45s ease forwards;
+}
+
+@keyframes slideNext {
+    from {
+        transform: translateX(40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slidePrev {
+    from {
+        transform: translateX(-40px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}

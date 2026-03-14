@@ -1,0 +1,103 @@
+.dashboard-header {
+    margin-bottom: 24px;
+}
+
+.dashboard-header h1 {
+    font-size: 28px;
+    font-weight: 600;
+    color: #f8fafc;
+}
+
+.dashboard-header p {
+    color: #94a3b8;
+    font-size: 14px;
+}
+
+/* DASHBOARD HOME */
+
+.dashboard-home {
+  max-width: 1000px;
+}
+
+/* Welcome */
+.welcome-card {
+  background: #030712;
+  border: 1px solid #1e293b;
+  border-radius: 14px;
+  padding: 28px;
+  margin-bottom: 32px;
+}
+
+.welcome-card h1 {
+  font-size: 26px;
+  margin-bottom: 8px;
+  color: #f8fafc;
+}
+
+.welcome-card p {
+  color: #94a3b8;
+  font-size: 14px;
+}
+
+/* Section */
+.section {
+  margin-bottom: 32px;
+}
+
+.section-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #c7d2fe;
+  margin-bottom: 16px;
+}
+
+/* Action Grid */
+.action-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 16px;
+}
+
+.action-grid button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #020617;
+  border: 1px solid #1e293b;
+  color: #e5e7eb;
+  padding: 16px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.25s ease;
+}
+
+.action-grid button:hover {
+  background: #1e293b;
+  transform: translateY(-2px);
+}
+
+/* Info Card */
+.info-card {
+  background: rgba(3, 7, 18, 0.85);
+  border: 1px solid rgba(255, 255, 255, 0.04);
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.info-card h3 {
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: #f8fafc;
+}
+
+.info-card ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.info-card li {
+  font-size: 14px;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}

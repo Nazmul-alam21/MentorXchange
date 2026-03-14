@@ -1,0 +1,134 @@
+.received-requests-page {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    color: #e5e7eb;
+}
+
+.page-header {
+    margin-bottom: 24px;
+}
+
+.page-header h2 {
+    font-size: 24px;
+}
+
+.page-header p {
+    color: #94a3b8;
+    margin-top: 4px;
+}
+
+.empty-state {
+    color: #94a3b8;
+}
+
+.requests-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.request-card {
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 14px;
+    padding: 20px 22px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.request-info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.request-name {
+    font-size: 16px;
+    font-weight: 600;
+    color: #60a5fa;
+    cursor: pointer;
+}
+
+.request-name:hover {
+    text-decoration: underline;
+}
+
+.request-subtext {
+    font-size: 13px;
+    color: #94a3b8;
+}
+
+.request-email {
+    font-size: 13px;
+    color: #94a3b8;
+    margin-bottom: 12px;
+}
+
+.request-actions {
+    display: flex;
+    gap: 14px;
+}
+
+.primary-btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 90px;
+}
+
+.primary-btn:hover {
+    background-color: #1e40af;
+}
+
+.secondary-btn {
+    background: transparent;
+    border: 1px solid #334155;
+    color: #e5e7eb;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    min-width: 90px;
+}
+
+.secondary-btn:hover {
+    background: #1e293b;
+}
+
+.disabled-btn {
+    background: #334155;
+    color: #cbd5f5;
+    cursor: not-allowed;
+}
+
+.empty-requests-state {
+    text-align: center;
+    margin-top: 60px;
+    color: #e5e7eb;
+}
+
+.empty-requests-state h3 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.empty-requests-state p {
+    color: #94a3b8;
+    max-width: 420px;
+    margin: 0 auto 22px;
+    line-height: 1.5;
+}
+
+.empty-requests-actions {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    flex-wrap: wrap;
+}

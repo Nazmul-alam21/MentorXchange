@@ -1,0 +1,139 @@
+html,
+body {
+  height: 100%;
+  overflow: hidden;
+}
+
+.app-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #020617;
+  color: #e5e7eb;
+}
+
+/* SIDEBAR */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 240px;
+
+  background: #030712;
+  border-right: 1px solid #1e293b;
+  padding: 24px 16px;
+
+  overflow-y: auto;
+}
+
+.sidebar-brand {
+  font-size: 18px;
+  font-weight: 500;
+  color: #f8fafc;
+  margin-bottom: 32px;
+  letter-spacing: 0.3px;
+}
+
+.brand-x {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0px 1px;
+  color: #3b82f6;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.sidebar-nav button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: transparent;
+  border: none;
+  color: #cbd5f5;
+  padding: 10px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sidebar-nav button:hover {
+  background: #1e293b;
+}
+
+.sidebar-nav button.active {
+  background: rgba(79, 70, 229, 0.12);
+  color: #e5e7eb;
+  border-left: 3px solid #4f46e5;
+}
+
+.sidebar-nav button svg {
+  color: #94a3b8;
+}
+
+.sidebar-nav 
+
+/* .has-badge {
+  justify-content: space-between;
+} */
+
+.badge {
+  background: #ef4444;
+  color: white;
+  font-size: 11px;
+  min-width: 18px;
+  height: 18px;
+  border-radius: 999px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* MAIN */
+.main {
+  margin-left: 280px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.topbar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 16px;
+  padding: 0 32px;
+  background: #020617;
+  border-bottom: 1px solid #1e293b;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  border: 1px solid #334155;
+  color: #e5e7eb;
+  padding: 6px 12px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logout-btn:hover {
+  background: #1e293b;
+}
+
+.page-content {
+  padding: 40px;
+  overflow-y: auto;
+  flex: 1;
+}
