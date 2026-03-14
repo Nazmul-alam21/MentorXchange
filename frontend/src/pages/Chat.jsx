@@ -2,7 +2,7 @@ import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../context/AuthContext";
 import { useLocation, useNavigate, useParams } from "react-router-dom";
 import api from "../services/api";
-import "./chat.css";
+import "./Chat.css";
 
 function Chat() {
     const { user } = useContext(AuthContext);
